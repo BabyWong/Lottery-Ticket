@@ -23,7 +23,7 @@
     [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"NavBar64"] forBarMetrics:UIBarMetricsDefault];
     
     NSMutableDictionary *attribute = [NSMutableDictionary dictionary];
-    attribute[NSFontAttributeName] = [UIFont systemFontOfSize:13];
+    attribute[NSFontAttributeName] = [UIFont systemFontOfSize:15];
     attribute[NSForegroundColorAttributeName] = [UIColor whiteColor];
     
     self.navigationBar.titleTextAttributes = attribute;
