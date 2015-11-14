@@ -23,7 +23,7 @@
 
 - (void)hiddenPopMenuInPoint:(CGPoint)point completion:(void(^__nullable)())completion {
     
-    [UIView animateWithDuration:0.5 animations:^{
+    [UIView animateWithDuration:0.7 animations:^{
         
         self.center = point;
         

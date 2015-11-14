@@ -18,8 +18,6 @@
     [super viewDidLoad];
     
     
-    
-    
     [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"NavBar64"] forBarMetrics:UIBarMetricsDefault];
     
     NSMutableDictionary *attribute = [NSMutableDictionary dictionary];

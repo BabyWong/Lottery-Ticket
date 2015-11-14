@@ -45,8 +45,8 @@
         
         [self addSubview:btn];
     }
-
 }
+
 
 - (void)btnClick:(UIButton *)btn {
     

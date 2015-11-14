@@ -14,6 +14,7 @@
 #import "WWMyLotteryViewController.h"
 #import "WWTabBar.h"
 #import "WWNavViewController.h"
+#import "WWArenaNavController.h"
 
 
 @interface WWTabBarController () <WWTabBarDelegate>
@@ -76,8 +77,13 @@
 
 - (void)setUpOneChildViewController:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectImage:(NSString *)selectImage  {
     
-    WWNavViewController *nav = [[WWNavViewController alloc] initWithRootViewController:vc];
+    UINavigationController *nav = [[WWNavViewController alloc] initWithRootViewController:vc];
+    
     vc.navigationItem.title = title;
+    
+    if ([vc isKindOfClass:[WWArenaViewController class]]) {
+        nav = [[WWArenaNavController alloc] initWithRootViewController:vc];
+    }
     nav.tabBarItem.image = [UIImage imageNamed:image];
     nav.tabBarItem.selectedImage = [UIImage imageNamed:selectImage];
     

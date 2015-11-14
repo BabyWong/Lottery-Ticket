@@ -11,6 +11,7 @@
 		F51DFBFF1BF5FAFE00D8CA1F /* WWCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F51DFBFE1BF5FAFE00D8CA1F /* WWCoverView.m */; };
 		F51DFC6D1BF6056200D8CA1F /* WWPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F51DFC6C1BF6056200D8CA1F /* WWPopMenu.m */; };
 		F51DFC6F1BF6058200D8CA1F /* WWPopMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51DFC6E1BF6058200D8CA1F /* WWPopMenu.xib */; };
+		F52E8D2D1BF7393600B7ED32 /* WWArenaNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52E8D2C1BF7393600B7ED32 /* WWArenaNavController.m */; };
 		F561882D1BF4749400227A14 /* WWNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F561882C1BF4749400227A14 /* WWNavViewController.m */; };
 		F5832F051BEE321B00EFB94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5832F041BEE321B00EFB94F /* Assets.xcassets */; };
 		F5832F081BEE321B00EFB94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5832F061BEE321B00EFB94F /* LaunchScreen.storyboard */; };
@@ -52,6 +53,8 @@
 		F51DFC6B1BF6056200D8CA1F /* WWPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWPopMenu.h; sourceTree = "<group>"; };
 		F51DFC6C1BF6056200D8CA1F /* WWPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWPopMenu.m; sourceTree = "<group>"; };
 		F51DFC6E1BF6058200D8CA1F /* WWPopMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWPopMenu.xib; sourceTree = "<group>"; };
+		F52E8D2B1BF7393600B7ED32 /* WWArenaNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWArenaNavController.h; sourceTree = "<group>"; };
+		F52E8D2C1BF7393600B7ED32 /* WWArenaNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWArenaNavController.m; sourceTree = "<group>"; };
 		F561882B1BF4749400227A14 /* WWNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWNavViewController.h; sourceTree = "<group>"; };
 		F561882C1BF4749400227A14 /* WWNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWNavViewController.m; sourceTree = "<group>"; };
 		F5832EF51BEE321B00EFB94F /* my lottery ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my lottery ticket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +197,8 @@
 			children = (
 				F5832F4D1BEE3E9D00EFB94F /* WWArenaViewController.h */,
 				F5832F4E1BEE3E9D00EFB94F /* WWArenaViewController.m */,
+				F52E8D2B1BF7393600B7ED32 /* WWArenaNavController.h */,
+				F52E8D2C1BF7393600B7ED32 /* WWArenaNavController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -534,6 +539,7 @@
 				F51DFC6D1BF6056200D8CA1F /* WWPopMenu.m in Sources */,
 				F5832F491BEE359200EFB94F /* main.m in Sources */,
 				F5832F521BEE3EBA00EFB94F /* WWDiscoveryViewController.m in Sources */,
+				F52E8D2D1BF7393600B7ED32 /* WWArenaNavController.m in Sources */,
 				F5832F4C1BEE369F00EFB94F /* WWTabBarController.m in Sources */,
 				F51DFBB91BF5C55D00D8CA1F /* WWButton.m in Sources */,
 				F5832F5B1BEE3F1A00EFB94F /* WWMyLotteryViewController.m in Sources */,
